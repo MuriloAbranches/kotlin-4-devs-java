@@ -13,6 +13,12 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    // https://mvnrepository.com/artifact/org.amshove.kluent/kluent
+    testImplementation("org.amshove.kluent:kluent:1.68")
+
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
+
 }
 
 tasks.test {
